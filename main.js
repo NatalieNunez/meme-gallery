@@ -11,13 +11,15 @@ var imageUrlInput = document.querySelector('input');
 var addImageButton = document.querySelector('button');
 
 addImageButton.addEventListener('click', function (event) {
-    console.log(imageUrlInput.value);
     if (imageUrlInput.value !== '') {
         imageUrls.push(imageUrlInput.value);
     }
     imageUrlInput.value = '';
+    updateGallery();
 });
+
 function updateGallery () {
+    gallery.innerHTML = '';
     for (let i = 0; i < imageUrls.length; i++) {
         var imageElement = document.createElement('img');
         imageElement.className = 'gallery-image';
@@ -25,3 +27,5 @@ function updateGallery () {
         gallery.appendChild(imageElement);
     }
 }
+
+updateGallery();
