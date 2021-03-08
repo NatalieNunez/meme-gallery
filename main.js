@@ -1,8 +1,7 @@
 var imageUrls = [
-  'https://wiki.godvillegame.com/images/thumb/7/76/Prap.jpg/298px-Prap.jpg',
-  'https://i.pinimg.com/originals/4f/82/8d/4f828d05f82b8b7aedfe8be6a7d9d2a3.png',
-  'https://i.ytimg.com/vi/Q1dg4bD1mHc/maxresdefault.jpg',
-  'https://miro.medium.com/max/1280/0*gUmnBbPXyTNTL8hI'
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0sVgo9mXJFWcEUlSVHfM2Q3J63Qfb0XvcQA&usqp=CAU',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7WxIBBZJcd4a26IGtZK8JtPZBPhSWsnFaw&usqp=CAU',
+    'https://i.redd.it/ddvaqe8bjfm51.jpg'
 ];
 var gallery = document.querySelector('main');
 var imageUrlInput = document.querySelector('input');

@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: monospace;
   background-color: #2e3035;
 }
 
@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -27,6 +27,10 @@ input {
 button {
   padding: 8px 12px;
   background-color: #1bb76e;
+}
+
+button:hover {
+  background-color: #1bb76e85;
 }
 
 input,
